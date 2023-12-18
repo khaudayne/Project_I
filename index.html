@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}"> -->
+    <link rel="stylesheet" href="/Python_exeee/ChatBot_AI/static/css/style.css">
+</head>
+
+<body>
+    
+    <div class="title">
+        <button id ="openUserDivBtn"><span>></span></button>
+        <div id="nameTitle">ChatGPT <span id="spanTitle">2</span></div>
+    </div>
+    <div class="main_dis">
+        <div id="chatbox">
+            <div class="botText">
+                <div>Hi! I'm Chatterbot.</div>
+            </div>
+            <!-- <p class="botText"><span>Hi! I'm Chatterbot asd asduas hduas duq eiuqy eiuqwye iuqwy eiuqwy uiqwye iuqwy euiqwy eiuwqyeiuqwye iuqwy eiuqwy eiuqwy eiquwey qiuey iquwye quưi.</span></p> -->
+        </div>
+    </div>
+    <div id="userInput">
+        <textarea name="" id="textInput" cols="30" rows="10" placeholder="Ask something!"></textarea>
+        <!-- <input id="textInput" type="text" name="msg" placeholder="Ask something!"> -->
+        <input id="buttonInput" type="submit" value="Send">
+    </div>
+    <div class="userDiv">
+        <div>
+            <!-- <div class="nameUser">
+                <button class="imgUser">
+
+                </button>
+                <div>
+                    No one here!!
+                </div>
+            </div> -->
+            <div class="funUser">
+                <div class="loginDiv">
+                    <a href="/Python_exeee/ChatBot_AI/templates/login.html">
+                        <div>Login</div>
+                    </a>
+                </div>
+                <div class="registerDiv">
+                    <a href="">
+                        <div>Register</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Python_exeee/ChatBot_AI/static/js/jquery-3.6.3.min.js"></script>
+    <script src="/Python_exeee/ChatBot_AI/static/js/index.js"></script>
+    <!-- <script src="{{ url_for('static', filename='js/jquery-3.6.3.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script> -->
+
+</body>
+
+</html>
