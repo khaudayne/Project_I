@@ -1,0 +1,51 @@
+.fullscreen{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #bbbbbb9d;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 40px;
+}
+#popupDiv{
+    width: 700px;
+    height: 350px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#btnCloseDiv{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(255, 39, 39);
+    height: 50px;
+    border-radius: 40px 40px 0px 0px;
+
+}
+#closePopUpBtn{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 15px;
+    background-color: white;
+    font-family: Arial;
+}
+#closePopUpBtn:hover{
+    cursor: pointer;
+    background-color: #bbbbbb;
+}
+#srcTitleDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000000;
+    padding-top: 50px;
+}

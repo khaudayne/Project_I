@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Python_exeee/ChatBot_AI/static/css/login.css">
+    <link rel="stylesheet" href="/Python_exeee/ChatBot_AI/static/css/popUp.css">
+    <link rel="stylesheet" href="/Python_exeee/ChatBot_AI/static/css/chatView.css">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/popUp.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/login.css') }}"> -->
+</head>
+
+<body>
+    <div class="chatView">
+        <div class="title">
+            <button id="openUserDivBtn"><span>></span></button>
+            <div id="nameTitle">ChatBot <span id="spanTitle">1.2</span></div>
+        </div>
+        <div class="main_dis">
+            <div id="chatbox">
+                <div class="botText">
+                    <div>Hi! I'm ChatBot.</div>
+                </div>
+                <!-- <p class="botText"><span>Hi! I'm Chatterbot asd asduas hduas duq eiuqy eiuqwye iuqwy eiuqwy uiqwye iuqwy euiqwy eiuwqyeiuqwye iuqwy eiuqwy eiuqwy eiquwey qiuey iquwye quưi.</span></p> -->
+            </div>
+        </div>
+        <div id="userInput">
+            <textarea name="" id="textInput" cols="30" rows="10"></textarea>
+            <!-- <input id="textInput" type="text" name="msg" placeholder="Ask something!"> -->
+            <input id="buttonInput" type="submit" value="Send">
+        </div>
+        <div class="userDivChatView">
+            <div class="listTitle" >
+                <button class="listTitleBtn" data-hidden-id="0">New chat</button>
+            </div>
+            <div class="nameUserLogined"></div>
+        </div>
+
+    </div>
+
+
+
+    <div class="screen">
+        <div class="formLogin">
+            <div class="xDiv">
+                <div id="xBtn">
+                    <div>x</div>
+                </div>
+            </div>
+            <div class="userDiv">
+                <div id="labelUser"><span>Username</span></div>
+                <input type="text" id="inputUser" placeholder="Username">
+            </div>
+            <div class="passwDiv">
+                <div id="labelPassw"><span>Password</span></div>
+                <input type="password" id="inputPassw" placeholder="Password">
+            </div>
+            <div class="btnDiv">
+                <div id="loginBtn">
+
+                    <div>Login</div>
+
+                </div>
+                <div id="backBtn">
+                    <div>Back</div>
+                </div>
+                <!-- <button id="loginBtn"><span>Login</span></button>
+                <button id="backBtn"><span>Back</span></button> -->
+            </div>
+        </div>
+    </div>
+    <div class="fullscreen">
+        <div id="popupDiv">
+            <div id="btnCloseDiv">
+                <button id="closePopUpBtn"><span>x</span></button>
+            </div>
+
+            <div id="srcTitleDiv"><span>Invalid username or password!</span></div>
+        </div>
+    </div>
+
+
+    <script src="/Python_exeee/ChatBot_AI/static/js/jquery-3.6.3.min.js"></script>
+    <script src="/Python_exeee/ChatBot_AI/static/js/login.js"></script>
+    <script src="/Python_exeee/ChatBot_AI/static/js/chatView.js"></script>
+    <!-- <script src="{{ url_for('static', filename='js/jquery-3.6.3.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script> -->
+</body>
+
+</html>

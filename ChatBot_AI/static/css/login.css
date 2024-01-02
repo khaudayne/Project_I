@@ -1,0 +1,170 @@
+.screen {
+    font-family: Arial;
+    font-size: 40px;
+    /* display: none; */
+}
+
+#xBtn {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #6e6e6e85;
+    border: none;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#xBtn:hover {
+    cursor: pointer;
+    background-color: rgb(219, 60, 60);
+}
+
+#xBtn:active {
+    background-color: rgb(190, 30, 30);
+}
+
+.formLogin {
+    width: 60%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    border: none;
+    border-radius: 40px;
+}
+
+.xDiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.userDiv {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+
+.passwDiv {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+
+}
+
+#inputUser {
+    border: none;
+    width: 40%;
+    border-radius: 20px;
+    padding-left: 30px;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#inputPassw {
+    border: none;
+    width: 40%;
+    border-radius: 20px;
+    padding-left: 30px;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 30px;
+
+}
+
+#inputUser:focus {
+    outline: none;
+    border: 1px solid #0d8517;
+}
+
+#inputPassw:focus {
+    outline: none;
+    border: 1px solid #0d8517;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#loginBtn {
+    border: none;
+    border-radius: 20px;
+    background-color: #6e6e6e85;
+    height: 60px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+}
+
+
+#backBtn {
+
+    border: none;
+    border-radius: 20px;
+    background-color: #6e6e6e85;
+    height: 60px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+}
+
+
+#loginBtn:hover {
+    background-color: #43b94d;
+    cursor: pointer;
+}
+
+#backBtn:hover {
+    background-color: rgb(202, 119, 59);
+    cursor: pointer;
+}
+
+#loginBtn:active {
+    background-color: #25942e;
+}
+
+#backBtn:active {
+    background-color: rgb(141, 86, 47);
+}
+
+@media only screen and (max-width: 900px){
+
+    #labelPassw{
+        display: none;
+    }
+    #labelUser{
+        display: none;
+    }
+    #inputUser{
+        height: 50px;
+        width: 70%;
+    }
+    #inputPassw{
+        height: 50px;
+        width: 70%;
+    }   
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Python_exeee/ChatBot_AI/static/css/register.css">
+    <link rel="stylesheet" href="/Python_exeee/ChatBot_AI/static/css/popUp.css">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/popUp.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/register.css') }}"> -->
+</head>
+
+<body>
+    <div class="screen">
+        <div class="formLogin">
+            <div class="xDiv">
+                <div id="xBtn">
+                    <div>x</div>
+                </div>
+            </div>
+            <div class="userDiv">
+                <div id="labelUser"><span>Username</span></div>
+                <input type="text" id="inputUser" placeholder="Username">
+            </div>
+            <div class="passwDiv">
+                <div id="labelPassw"><span>Password</span></div>
+                <input type="text" id="inputPassw" placeholder="Password">
+            </div>
+            <div class="repasswDiv">
+                <div id="reLabelPassw"><span>RePassword</span></div>
+                <input type="text" id="reinputPassw" placeholder="RePassword">
+            </div>
+            <div class="btnDiv">
+                <div id="loginBtn">
+
+                    <div>Login</div>
+
+                </div>
+                <div id="backBtn">
+                    <div>Back</div>
+                </div>
+                <!-- <button id="loginBtn"><span>Login</span></button>
+                <button id="backBtn"><span>Back</span></button> -->
+            </div>
+        </div>
+    </div>
+    <div class="fullscreen">
+        <div id="popupDiv">
+            <div id="btnCloseDiv">
+                <button id="closePopUpBtn"><span>x</span></button>
+            </div>
+            <div id="srcTitleDiv"><span>Mật khẩu lặp lại không chính xác!</span></div>
+        </div>
+    </div>
+
+
+
+    <script src="/Python_exeee/ChatBot_AI/static/js/jquery-3.6.3.min.js"></script>
+    <script src="/Python_exeee/ChatBot_AI/static/js/register.js"></script>
+    <!-- <script src="{{ url_for('static', filename='js/jquery-3.6.3.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/register.js') }}"></script> -->
+</body>
+
+</html>

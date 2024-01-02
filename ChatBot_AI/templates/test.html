@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Attribute Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<button class="myButton" data-hidden-value="123">Click me</button>
+
+<script>
+  // Sử dụng jQuery để thêm sự kiện click cho nút
+  $(".myButton").on("click", function() {
+    // Lấy giá trị ẩn từ thuộc tính dữ liệu và in ra console
+    var hiddenValue = $(this).data("hidden-value");
+    console.log("Hidden Value: " + hiddenValue);
+  });
+</script>
+
+</body>
+</html>
